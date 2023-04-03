@@ -1,0 +1,13 @@
+**/target
+**/.idea/**
+**/.apt_generated
+**/.settings
+**/.classpath
+**/.project
+**/logs
+**/log
+**/__pycache__
+**/nacos-data
+**/log.log
+**/*.iml
+/*.log
