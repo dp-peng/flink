@@ -1,5 +1,6 @@
 package com.ping.watermark;
 
+import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
@@ -23,6 +24,14 @@ public class WaterMarkDemo {
 
         DataStreamSource<List<String>> streamSource = env.fromElements(Arrays.asList("a", "b", "c", "d", "e"));
 
+        streamSource
+                .keyBy(x->0)
+                .map(new RichMapFunction<List<String>, String>() {
+                    @Override
+                    public String map(List<String> strings) throws Exception {
+                        return null;
+                    }
+                })
         streamSource.print();
     }
 }
