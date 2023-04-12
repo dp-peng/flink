@@ -31,7 +31,7 @@ public class WaterMarkDemo {
                     public String map(List<String> strings) throws Exception {
                         return null;
                     }
-                })
+                });
         streamSource.print();
     }
 }
