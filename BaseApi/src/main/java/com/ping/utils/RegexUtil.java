@@ -51,8 +51,6 @@ public class RegexUtil {
      *
      * @param ipv4Address IPV4地址
      * @return true-有效的ipv4地址，false-无效的ipv4地址
-     * @author dp
-     * @date 2023/4/15 14:31
      * @since 1.0
      **/
     public static boolean isValidIpv4(String ipv4Address) {
@@ -64,8 +62,6 @@ public class RegexUtil {
      *
      * @param Ipv6Address IPV6地址
      * @return true-有效的ipv6地址，false-无效的ipv6地址
-     * @author dp
-     * @date 2023/4/15 14:31
      * @since 1.0
      **/
     public static boolean isValidIpv6(String Ipv6Address) {
@@ -81,8 +77,6 @@ public class RegexUtil {
      *
      * @param domain 域名
      * @return true-有效的域名，false-无效的域名
-     * @author dp
-     * @date 2023/4/15 14:31
      * @since 1.0
      **/
     public static boolean isValidDomain(String domain) {
@@ -94,8 +88,6 @@ public class RegexUtil {
      *
      * @param port 端口
      * @return true-有效的端口，false-无效的端口地址
-     * @author dp
-     * @date 2023/4/15 14:31
      * @since 1.0
      **/
     public static boolean isValidPort(String port) {

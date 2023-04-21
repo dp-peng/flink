@@ -20,8 +20,6 @@ public class IpUtil {
      *
      * @param request {@link HttpServletRequest}
      * @return IP address
-     * @author dp
-     * @date 2023/4/18 10:37
      * @since 1.0
      **/
     public static String getIpAddr(HttpServletRequest request) {
