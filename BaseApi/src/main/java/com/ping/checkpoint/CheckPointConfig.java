@@ -1,5 +1,7 @@
 package com.ping.checkpoint;
 
+import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+
 /**
  * ========================
  * module_name:[]
@@ -11,4 +13,7 @@ package com.ping.checkpoint;
  */
 public class CheckPointConfig {
 
+    public static void setCheckpointParam(StreamExecutionEnvironment env){
+
+    }
 }
