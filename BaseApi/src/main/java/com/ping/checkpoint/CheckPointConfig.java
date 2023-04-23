@@ -14,6 +14,6 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 public class CheckPointConfig {
 
     public static void setCheckpointParam(StreamExecutionEnvironment env){
-
+        env.enableCheckpointing(30000);
     }
 }
