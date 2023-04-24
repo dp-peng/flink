@@ -19,5 +19,6 @@ public class CheckPointConfig {
 
         CheckpointConfig checkpointConfig = env.getCheckpointConfig();
 
+        checkpointConfig.setCheckpointTimeout(1000);
     }
 }
