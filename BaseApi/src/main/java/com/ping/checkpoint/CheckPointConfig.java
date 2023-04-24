@@ -1,5 +1,6 @@
 package com.ping.checkpoint;
 
+import org.apache.flink.streaming.api.CheckpointingMode;
 import org.apache.flink.streaming.api.environment.CheckpointConfig;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
@@ -20,5 +21,7 @@ public class CheckPointConfig {
         CheckpointConfig checkpointConfig = env.getCheckpointConfig();
 
         checkpointConfig.setCheckpointTimeout(1000);
+
+        checkpointConfig.setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
     }
 }
