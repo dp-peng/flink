@@ -23,5 +23,7 @@ public class CheckPointConfig {
         checkpointConfig.setCheckpointTimeout(1000);
 
         checkpointConfig.setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
+
+        checkpointConfig.setCheckpointInterval(20000);
     }
 }
