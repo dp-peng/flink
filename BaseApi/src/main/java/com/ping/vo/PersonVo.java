@@ -10,7 +10,7 @@ package com.ping.vo;
  * @since: 1.0
  * ========================
  */
-public class TestVo {
+public class PersonVo {
 
     private String name;
 
