@@ -1,11 +1,7 @@
 package com.ping.vo;
 
 /**
- * ========================
- * module_name:[]
- * module_desc:
  *
- * ========================
  */
 public class PersonVo {
 
