@@ -3,14 +3,7 @@ package com.ping.utils;
 import java.util.regex.Pattern;
 
 /**
- * ========================
- * module_name:[]
- * module_desc:
  *
- * @author: dp
- * @date: 2023/4/21
- * @since: 1.0
- * ========================
  */
 public class RegexUtil {
 
@@ -88,7 +81,7 @@ public class RegexUtil {
      *
      * @param port 端口
      * @return true-有效的端口，false-无效的端口地址
-     * @since 1.0  
+     * @since 1.0
      **/
     public static boolean isValidPort(String port) {
         return PATTERN_PORT.matcher(port).matches();

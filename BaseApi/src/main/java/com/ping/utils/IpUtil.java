@@ -3,14 +3,7 @@ package com.ping.utils;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**
- * ========================
- * module_name:[]
- * module_desc:
  *
- * @author: dp
- * @date: 2023/4/18
- * @since: 1.0
- * ========================
  */
 public class IpUtil {
 
