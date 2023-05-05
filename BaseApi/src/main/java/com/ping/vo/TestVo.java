@@ -13,4 +13,6 @@ package com.ping.vo;
 public class TestVo {
 
     private String name;
+
+    private int age;
 }
