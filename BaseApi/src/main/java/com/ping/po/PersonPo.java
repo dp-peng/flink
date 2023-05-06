@@ -10,5 +10,5 @@ package com.ping.po;
  * @since: 1.0
  * ========================
  */
-public class TestPo {
+public class PersonPo {
 }
