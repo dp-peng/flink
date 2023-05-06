@@ -11,4 +11,6 @@ package com.ping.po;
  * ========================
  */
 public class PersonPo {
+
+
 }
