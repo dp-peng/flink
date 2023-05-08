@@ -13,4 +13,5 @@ package com.ping.po;
 public class PersonPo {
     private String name;
 
+    private int age;
 }
