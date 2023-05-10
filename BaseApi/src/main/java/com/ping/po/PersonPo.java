@@ -16,4 +16,6 @@ public class PersonPo {
     private int age;
 
     private String address;
+
+    private String email;
 }
