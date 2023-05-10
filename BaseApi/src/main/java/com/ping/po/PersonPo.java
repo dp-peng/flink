@@ -18,4 +18,6 @@ public class PersonPo {
     private String address;
 
     private String email;
+
+    private String car;
 }
