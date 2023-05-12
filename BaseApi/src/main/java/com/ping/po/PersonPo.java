@@ -20,4 +20,6 @@ public class PersonPo {
     private String email;
 
     private String car;
+
+    private String business;
 }
